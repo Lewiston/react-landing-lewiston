@@ -1,0 +1,99 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer > svg {
+  width: 100px;
+  height: auto;
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-list > h4 {
+  color: #707070;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-links > li > a {
+  color: white !important;
+}
+
+
+/* Styling social icons as a grid system */
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1rem;
+}
+
+.social-icons > a > svg {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+/* Styling language input */
+
+
+
+/* Styling the copyright text */
+.copyright > small {
+  font-size: 12px;
+  font-weight: 500;
+  color: #B0B0B0;
+}
+
+.btn-lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+  border-radius: 0.5rem;
+  width: 140px;
+  position: relative;
+}
+
+.down-arrow > svg {
+  fill: white;
+  transform: rotate(90deg);
+}
+
+.up-arrow > svg {
+  fill: white;
+  transform: rotate(-90deg);
+  width: 200px;
+}
+
+.select-lang-off {
+  display: none;
+}
+
+.select-lang-on {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  top: -2rem;
+  left: 0;
+}

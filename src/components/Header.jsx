@@ -12,293 +12,16 @@ const Header = () => {
           <ul className="nav-list">
             {/* AI Suite header content */}
             <li className="nav-list-item">AI Suite
-
-              {/* dropdown menu content */}
-              <div className="nav-dropdown-container">
-
-                {/* dropdown menu heading */}
-                <h4>AI Suite</h4>
-
-                {/* dropdown list container */}
-                <div className="nav-dropdown-list">
-                  {/* dropdown columns */}
-                  <div className="nav-dropdown-list-item">
-                    {/* dropdown column header */}
-                    <div className="nav-list-item-title">
-                      <img src="./photos/add.svg" alt="image icon" />
-                      <p>IMAGE</p>
-                    </div>
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul>
-                        <li><a href="https://www.freepik.com/ai/image-generator#from_element=mainmenu">AI Image Generator</a></li>
-                        <li><a href="https://www.freepik.com/ai/photo-editor#from_element=mainmenu">Image Editor</a></li>
-                        <li><a href="https://www.freepik.com/ai/image-upscaler#from_element=mainmenu">Image Upscaler</a></li>
-                        <li className="new-feature"><a href="https://www.freepik.com/pikaso/assistant#from_element=mainmenu">Assistant</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="nav-dropdown-list-item">
-                    {/* dropdown column header */}
-                    <div className="nav-list-item-title">
-                      <img src="./photos/wand.svg" alt="image icon" />
-                      <p>VIDEO</p>
-                    </div>
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul>
-                        <li><a href="https://www.freepik.com/ai/video-generator#from_element=mainmenu">AI Video Generator</a></li>
-                        <li><a href="https://www.freepik.com/ai/video-editor#from_element=mainmenu">Video Project Generator</a></li>
-                        <li><a href="https://www.freepik.com/pikaso/video-clip-editor#from_element=mainmenu">Clip Editor</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="nav-dropdown-list-item">
-                    {/* dropdown column header */}
-                    <div className="nav-list-item-title">
-                      <img src="./photos/subscriptions.svg" alt="image icon" />
-                      <p>AUDIO</p>
-                    </div>
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul>
-                        <li><a href="https://www.freepik.com/ai/voice-generator#from_element=mainmenu">Text to Speech</a></li>
-                        <li><a href="https://www.freepik.com/ai/sound-effect-generator#from_element=mainmenu">Sound Effects Generator</a></li>
-                        <li><a href="https://www.freepik.com/pikaso/music#from_element=mainmenu">Music Generator</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="nav-dropdown-list-item">
-                    {/* dropdown column header */}
-                    <div className="nav-list-item-title">
-                      <img src="./photos/add.svg" alt="image icon" />
-                      <p>OTHERS</p>
-                    </div>
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul>
-                        <li><a href="https://www.freepik.com/designer#from_element=mainmenu">Design Editor</a></li>
-                        <li><a href="https://www.freepik.com/mockup-generator#from_element=mainmenu">Mockup Generator</a></li>
-                        <li><a href="https://www.freepik.com/ai/icon-generator#from_element=mainmenu">Icon Generator</a></li>
-                        <li><a href="https://www.freepik.com/ai/background-remover#from_element=mainmenu">Background Remover</a></li>
-                        <li><a href="https://www.freepik.com/ai/image-extender#from_element=mainmenu">Image Expander</a></li>
-                        <li><a href="https://www.freepik.com/ai/reimagine#from_element=mainmenu">Reimagine</a></li>
-                        <li><a href="https://www.freepik.com/pikaso/sketch#from_element=mainmenu">Sketch to Image</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-
-                </div>
-
-                {/* Bottom content for dropdown menus */}
-                <div className="nav-dropdown-bottom-content">
-              
-                  <a className="bottom-content-link" href="https://www.freepik.com/ai#from_element=mainmenu">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-sm"><path d="M19.802 3.414 18.7.914c-.538-1.219-2.269-1.219-2.806 0l-1.102 2.5c-.154.35-.434.63-.784.784l-2.5 1.102c-1.22.538-1.22 2.269 0 2.806l2.5 1.102c.35.154.63.434.784.784l1.102 2.5c.537 1.22 2.268 1.22 2.806 0l1.102-2.5c.154-.35.434-.63.784-.784l2.5-1.102c1.219-.537 1.219-2.268 0-2.806l-2.5-1.102a1.53 1.53 0 0 1-.784-.784M5.442 9.52l.74 1.678c.103.235.291.423.526.527l1.677.74c.82.36.82 1.522 0 1.883l-1.677.74a1.03 1.03 0 0 0-.527.526l-.74 1.678c-.36.819-1.522.819-1.883 0l-.74-1.678a1.03 1.03 0 0 0-.526-.526l-1.678-.74c-.819-.36-.819-1.523 0-1.884l1.678-.74c.235-.103.423-.291.526-.526l.74-1.678c.36-.818 1.523-.818 1.884 0M14.367 17.094l.608 1.382c.086.193.24.348.434.433l1.382.61a.848.848 0 0 1 0 1.55l-1.382.61a.85.85 0 0 0-.434.433l-.608 1.381a.848.848 0 0 1-1.551 0l-.61-1.381a.85.85 0 0 0-.433-.434l-1.381-.609a.848.848 0 0 1 0-1.55l1.381-.61a.85.85 0 0 0 .434-.433l.609-1.382a.848.848 0 0 1 1.55 0"></path></svg>
-                    <p>AI News</p>
-                  </a>
-                
-                  <a className="bottom-content-link" href="https://www.freepik.com/ai#from_element=mainmenu">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-lg size-4 text-surface-foreground-0"><path d="M388.02 215.98C339.667 167.629 275.38 141 207 141S74.333 167.629 25.98 215.98C-22.371 264.332-49 328.62-49 397s26.629 132.668 74.98 181.02C74.333 626.371 138.62 653 207 653s132.667-26.629 181.02-74.98C436.371 529.668 463 465.38 463 397s-26.629-132.668-74.98-181.02M206.999 594.556c-28.257-26.276-50.21-57.813-64.859-92.556h129.72c-14.65 34.744-36.603 66.281-64.861 92.556M126.613 452C122.92 434.105 121 415.699 121 397s1.921-37.105 5.613-55h160.774c3.693 17.895 5.613 36.301 5.613 55s-1.921 37.105-5.613 55zM1 397c0-19.042 2.609-37.484 7.467-55h67.236C72.597 359.985 71 378.371 71 397s1.597 37.015 4.703 55H8.467A205.5 205.5 0 0 1 1 397m206-197.557c28.257 26.276 50.211 57.813 64.859 92.557H142.141c14.648-34.743 36.602-66.281 64.859-92.557M338.297 342h67.236c4.858 17.516 7.467 35.958 7.467 55s-2.609 37.484-7.467 55h-67.235c3.106-17.985 4.703-36.371 4.703-55s-1.598-37.015-4.704-55m45.866-50h-58.741a317.4 317.4 0 0 0-47.355-88.362C322.719 220.102 360.14 251.62 384.163 292m-248.229-88.362A317.3 317.3 0 0 0 88.579 292H29.837c24.023-40.38 61.444-71.898 106.097-88.362M29.837 502h58.742a317.3 317.3 0 0 0 47.355 88.362C91.281 573.898 53.86 542.38 29.837 502m248.23 88.362A317.3 317.3 0 0 0 325.422 502h58.741c-24.023 40.379-61.443 71.898-106.096 88.362"></path></svg>
-                    <p>Community</p>
-                  </a>
-
-                </div>
-              </div>
+              <AISuite />
             </li>
 
             <li className="nav-list-item">Stock
-            {/* dropdown menu content */}
-              <div className="nav-dropdown-container">
-
-                {/* dropdown menu heading */}
-                <h4>Stock</h4>
-
-                {/* dropdown list container */}
-                <div className="nav-dropdown-list">
-                  {/* dropdown columns */}
-                  <div className="nav-dropdown-list-item">
-
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul className="stock-list-item">
-                        <li><a href="https://www.freepik.com/photos#from_element=mainmenu">Photos</a></li>
-                        <li><a href="https://www.freepik.com/vectors#from_element=mainmenu">Vectors</a></li>
-                        <li><a href="https://www.freepik.com/illustrations#from_element=mainmenu">Illustration</a></li>
-                        <li><a href="https://www.freepik.com/videos#from_element=mainmenu">Video</a></li>
-                        <li><a href="https://www.freepik.com/video-templates#from_element=mainmenu">Video Templates</a></li>
-                        <li><a href="https://www.freepik.com/motion-graphics#from_element=mainmenu">Motion Graphics</a></li>
-                        <li><a href="https://www.freepik.com/audio#from_element=mainmenu">Audio</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="nav-dropdown-list-item">
-
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul className="stock-list-item">
-                        <li><a href="https://www.freepik.com/icons#from_element=mainmenu">Icons</a></li>
-                        <li><a href="https://www.freepik.com/templates#from_element=mainmenu">Templates</a></li>
-                        <li><a href="https://www.freepik.com/mockups#from_element=mainmenu">Mockups</a></li>
-                        <li><a href="https://www.freepik.com/psd#from_element=mainmenu">PSD</a></li>
-                        <li><a href="https://www.freepik.com/3d-models#from_element=mainmenu">3D</a></li>
-                        <li><a href="https://www.freepik.com/fonts#from_element=mainmenu">Fonts</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-                {/* Bottom content for dropdown menus */}
-                <div className="nav-dropdown-bottom-content">
-                
-                  <a className="bottom-content-link" href="https://www.freepik.com/images#from_element=mainmenu">
-                    <p>All Images</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-xl"><path d="m226.644 397-92.322 92.322c-9.763 9.763-9.763 25.592 0 35.355s25.592 9.763 35.355 0l110-110C284.559 409.797 287 403.398 287 397s-2.441-12.796-7.322-17.678l-110-110c-9.764-9.763-25.592-9.763-35.355 0s-9.763 25.592 0 35.355z"></path></svg>
-                  </a>
-
-                </div>
-              </div>
+              <Stock />
             </li>
 
 
             <li className="nav-list-item">Resources
-            {/* dropdown menu content */}
-              <div className="nav-dropdown-container">
-
-
-                {/* dropdown list container */}
-                <div className="nav-dropdown-list resources-dropdown-list">
-                  {/* dropdown columns */}
-                  <div className="nav-dropdown-list-item">
-                    {/* dropdown column header */}
-                    <div className="nav-list-item-title resource-list-item">
-                      <p>COMPANY</p>
-                    </div>
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul>
-                        {/* dropdown column list item */}
-                        <li>
-                          <a href="https://www.freepik.com/company/about-us">
-                            <div className="nav-dropdown-icon">
-                              {/* Icon container */}
-                              <div className="icon-container">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-xl"><path d="M207 653c-68.38 0-132.667-26.629-181.02-74.98C-22.371 529.667-49 465.38-49 397s26.629-132.667 74.98-181.02C74.333 167.629 138.62 141 207 141s132.667 26.629 181.02 74.98C436.371 264.333 463 328.62 463 397s-26.629 132.667-74.98 181.02C339.667 626.371 275.38 653 207 653m0-462C93.411 191 1 283.411 1 397s92.411 206 206 206 206-92.411 206-206-92.411-206-206-206"></path><path d="M217 543c-13.807 0-25-11.193-25-25V391h-25c-13.807 0-25-11.193-25-25s11.193-25 25-25h50c13.807 0 25 11.193 25 25v152c0 13.807-11.193 25-25 25m-10-232c-16.542 0-30-13.458-30-30s13.458-30 30-30 30 13.458 30 30-13.458 30-30 30"></path></svg>
-                              </div> 
-                              {/* Link header and paragraph */}
-                              <div className="icon-text">
-                                <h5>About Us</h5>
-                                <p>Meet the team and 15 years of experience</p>
-                              </div> 
-                            </div>  
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="https://www.freepik.com/ai/partners">
-                            <div className="nav-dropdown-icon">
-                              {/* Icon container */}
-                              <div className="icon-container">
-                                <img src="./photos/person_shield.svg" alt="" />
-                              </div> 
-                              {/* Link header and paragraph */}
-                              <div className="icon-text">
-                                <h5>AI Partners Program</h5>
-                                <p>Top Creatives and Affiliate Programs</p>
-                              </div> 
-                            </div>  
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="https://www.freepik.com/blog/">
-                            <div className="nav-dropdown-icon">
-                              {/* Icon container */}
-                              <div className="icon-container">
-                                <img src="./photos/newsmode.svg" alt="" />
-                              </div> 
-                              {/* Link header and paragraph */}
-                              <div className="icon-text">
-                                <h5>Blog</h5>
-                                <p>Creative news and tips</p>
-                              </div> 
-                            </div>  
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="https://www.freepik.com/profile/support">
-                            <div className="nav-dropdown-icon">
-                              {/* Icon container */}
-                              <div className="icon-container">
-                                <img src="./photos/help.svg" alt="" />
-                              </div> 
-                              {/* Link header and paragraph */}
-                              <div className="icon-text">
-                                <h5>Get Help</h5>
-                                <p>Get support from our team</p>
-                              </div> 
-                            </div>  
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="https://www.freepik.com/company/about-us#contact-us">
-                            <div className="nav-dropdown-icon">
-                              {/* Icon container */}
-                              <div className="icon-container">
-                                <img src="./photos/mail.svg" alt="" />
-                              </div> 
-                              {/* Link header and paragraph */}
-                              <div className="icon-text">
-                                <h5>Contact Us</h5>
-                                <p>Meet the team and 15 years of experience</p>
-                              </div> 
-                            </div>  
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="nav-dropdown-list-item">
-                    {/* dropdown column header */}
-                    <div className="nav-list-item-title resource-list-item">
-                      <p>MORE</p>
-                    </div>
-                    {/* dropdown column links */}
-                    <div className="nav-list-item-links">
-                      <ul>
-                        <li><a href="https://www.freepik.com/enterprise">Enterprise</a></li>
-                        <li><a href="https://www.freepik.com/api">API for Developers</a></li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.freepikcompany.freepik">Android App</a></li>
-                        <li><a href="https://apps.apple.com/us/app/freepik-ai-video-generator/id1664092086">IOS App</a></li>
-                        <li><a href="https://www.figma.com/@freepik">Figma Plugin</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div className="nav-dropdown-list-item">
-                   
-                    {/* dropdown column links */}
-                    <div className="dropdown-video-container">
-                      <video className="header-video" src="./videos/video-upscale-menu-h.webm" autoPlay loop muted></video>
-                      <a className="bottom-content-link" href="https://www.freepik.com/images#from_element=mainmenu">
-                        <p>Events</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-xl"><path d="m226.644 397-92.322 92.322c-9.763 9.763-9.763 25.592 0 35.355s25.592 9.763 35.355 0l110-110C284.559 409.797 287 403.398 287 397s-2.441-12.796-7.322-17.678l-110-110c-9.764-9.763-25.592-9.763-35.355 0s-9.763 25.592 0 35.355z"></path></svg>
-                      </a>
-                      <p>Upscale Conf and US events</p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+              <Resources />
             </li>
 
 
@@ -313,7 +36,319 @@ const Header = () => {
       </div>
 
       {/* Header Forms */}
+      <SearchBar />
 
+    </header>
+  );
+};
+
+
+const AISuite = () => {
+  return (
+    <div>
+      {/* dropdown menu content */}
+      <div className="nav-dropdown-container">
+
+        {/* dropdown menu heading */}
+        <h4>AI Suite</h4>
+
+        {/* dropdown list container */}
+        <div className="nav-dropdown-list">
+          {/* dropdown columns */}
+          <div className="nav-dropdown-list-item">
+            {/* dropdown column header */}
+            <div className="nav-list-item-title">
+              <img src="./photos/add.svg" alt="image icon" />
+              <p>IMAGE</p>
+            </div>
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul>
+                <li><a href="https://www.freepik.com/ai/image-generator#from_element=mainmenu">AI Image Generator</a></li>
+                <li><a href="https://www.freepik.com/ai/photo-editor#from_element=mainmenu">Image Editor</a></li>
+                <li><a href="https://www.freepik.com/ai/image-upscaler#from_element=mainmenu">Image Upscaler</a></li>
+                <li className="new-feature"><a href="https://www.freepik.com/pikaso/assistant#from_element=mainmenu">Assistant</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="nav-dropdown-list-item">
+            {/* dropdown column header */}
+            <div className="nav-list-item-title">
+              <img src="./photos/wand.svg" alt="image icon" />
+              <p>VIDEO</p>
+            </div>
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul>
+                <li><a href="https://www.freepik.com/ai/video-generator#from_element=mainmenu">AI Video Generator</a></li>
+                <li><a href="https://www.freepik.com/ai/video-editor#from_element=mainmenu">Video Project Generator</a></li>
+                <li><a href="https://www.freepik.com/pikaso/video-clip-editor#from_element=mainmenu">Clip Editor</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="nav-dropdown-list-item">
+            {/* dropdown column header */}
+            <div className="nav-list-item-title">
+              <img src="./photos/subscriptions.svg" alt="image icon" />
+              <p>AUDIO</p>
+            </div>
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul>
+                <li><a href="https://www.freepik.com/ai/voice-generator#from_element=mainmenu">Text to Speech</a></li>
+                <li><a href="https://www.freepik.com/ai/sound-effect-generator#from_element=mainmenu">Sound Effects Generator</a></li>
+                <li><a href="https://www.freepik.com/pikaso/music#from_element=mainmenu">Music Generator</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="nav-dropdown-list-item">
+            {/* dropdown column header */}
+            <div className="nav-list-item-title">
+              <img src="./photos/add.svg" alt="image icon" />
+              <p>OTHERS</p>
+            </div>
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul>
+                <li><a href="https://www.freepik.com/designer#from_element=mainmenu">Design Editor</a></li>
+                <li><a href="https://www.freepik.com/mockup-generator#from_element=mainmenu">Mockup Generator</a></li>
+                <li><a href="https://www.freepik.com/ai/icon-generator#from_element=mainmenu">Icon Generator</a></li>
+                <li><a href="https://www.freepik.com/ai/background-remover#from_element=mainmenu">Background Remover</a></li>
+                <li><a href="https://www.freepik.com/ai/image-extender#from_element=mainmenu">Image Expander</a></li>
+                <li><a href="https://www.freepik.com/ai/reimagine#from_element=mainmenu">Reimagine</a></li>
+                <li><a href="https://www.freepik.com/pikaso/sketch#from_element=mainmenu">Sketch to Image</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+
+        {/* Bottom content for dropdown menus */}
+        <div className="nav-dropdown-bottom-content">
+      
+          <a className="bottom-content-link" href="https://www.freepik.com/ai#from_element=mainmenu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-sm"><path d="M19.802 3.414 18.7.914c-.538-1.219-2.269-1.219-2.806 0l-1.102 2.5c-.154.35-.434.63-.784.784l-2.5 1.102c-1.22.538-1.22 2.269 0 2.806l2.5 1.102c.35.154.63.434.784.784l1.102 2.5c.537 1.22 2.268 1.22 2.806 0l1.102-2.5c.154-.35.434-.63.784-.784l2.5-1.102c1.219-.537 1.219-2.268 0-2.806l-2.5-1.102a1.53 1.53 0 0 1-.784-.784M5.442 9.52l.74 1.678c.103.235.291.423.526.527l1.677.74c.82.36.82 1.522 0 1.883l-1.677.74a1.03 1.03 0 0 0-.527.526l-.74 1.678c-.36.819-1.522.819-1.883 0l-.74-1.678a1.03 1.03 0 0 0-.526-.526l-1.678-.74c-.819-.36-.819-1.523 0-1.884l1.678-.74c.235-.103.423-.291.526-.526l.74-1.678c.36-.818 1.523-.818 1.884 0M14.367 17.094l.608 1.382c.086.193.24.348.434.433l1.382.61a.848.848 0 0 1 0 1.55l-1.382.61a.85.85 0 0 0-.434.433l-.608 1.381a.848.848 0 0 1-1.551 0l-.61-1.381a.85.85 0 0 0-.433-.434l-1.381-.609a.848.848 0 0 1 0-1.55l1.381-.61a.85.85 0 0 0 .434-.433l.609-1.382a.848.848 0 0 1 1.55 0"></path></svg>
+            <p>AI News</p>
+          </a>
+        
+          <a className="bottom-content-link" href="https://www.freepik.com/ai#from_element=mainmenu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-lg size-4 text-surface-foreground-0"><path d="M388.02 215.98C339.667 167.629 275.38 141 207 141S74.333 167.629 25.98 215.98C-22.371 264.332-49 328.62-49 397s26.629 132.668 74.98 181.02C74.333 626.371 138.62 653 207 653s132.667-26.629 181.02-74.98C436.371 529.668 463 465.38 463 397s-26.629-132.668-74.98-181.02M206.999 594.556c-28.257-26.276-50.21-57.813-64.859-92.556h129.72c-14.65 34.744-36.603 66.281-64.861 92.556M126.613 452C122.92 434.105 121 415.699 121 397s1.921-37.105 5.613-55h160.774c3.693 17.895 5.613 36.301 5.613 55s-1.921 37.105-5.613 55zM1 397c0-19.042 2.609-37.484 7.467-55h67.236C72.597 359.985 71 378.371 71 397s1.597 37.015 4.703 55H8.467A205.5 205.5 0 0 1 1 397m206-197.557c28.257 26.276 50.211 57.813 64.859 92.557H142.141c14.648-34.743 36.602-66.281 64.859-92.557M338.297 342h67.236c4.858 17.516 7.467 35.958 7.467 55s-2.609 37.484-7.467 55h-67.235c3.106-17.985 4.703-36.371 4.703-55s-1.598-37.015-4.704-55m45.866-50h-58.741a317.4 317.4 0 0 0-47.355-88.362C322.719 220.102 360.14 251.62 384.163 292m-248.229-88.362A317.3 317.3 0 0 0 88.579 292H29.837c24.023-40.38 61.444-71.898 106.097-88.362M29.837 502h58.742a317.3 317.3 0 0 0 47.355 88.362C91.281 573.898 53.86 542.38 29.837 502m248.23 88.362A317.3 317.3 0 0 0 325.422 502h58.741c-24.023 40.379-61.443 71.898-106.096 88.362"></path></svg>
+            <p>Community</p>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+const Stock = () => {
+  return (
+    <div>
+      {/* dropdown menu content */}
+      <div className="nav-dropdown-container">
+
+        {/* dropdown menu heading */}
+        <h4>Stock</h4>
+
+        {/* dropdown list container */}
+        <div className="nav-dropdown-list">
+          {/* dropdown columns */}
+          <div className="nav-dropdown-list-item">
+
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul className="stock-list-item">
+                <li><a href="https://www.freepik.com/photos#from_element=mainmenu">Photos</a></li>
+                <li><a href="https://www.freepik.com/vectors#from_element=mainmenu">Vectors</a></li>
+                <li><a href="https://www.freepik.com/illustrations#from_element=mainmenu">Illustration</a></li>
+                <li><a href="https://www.freepik.com/videos#from_element=mainmenu">Video</a></li>
+                <li><a href="https://www.freepik.com/video-templates#from_element=mainmenu">Video Templates</a></li>
+                <li><a href="https://www.freepik.com/motion-graphics#from_element=mainmenu">Motion Graphics</a></li>
+                <li><a href="https://www.freepik.com/audio#from_element=mainmenu">Audio</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="nav-dropdown-list-item">
+
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul className="stock-list-item">
+                <li><a href="https://www.freepik.com/icons#from_element=mainmenu">Icons</a></li>
+                <li><a href="https://www.freepik.com/templates#from_element=mainmenu">Templates</a></li>
+                <li><a href="https://www.freepik.com/mockups#from_element=mainmenu">Mockups</a></li>
+                <li><a href="https://www.freepik.com/psd#from_element=mainmenu">PSD</a></li>
+                <li><a href="https://www.freepik.com/3d-models#from_element=mainmenu">3D</a></li>
+                <li><a href="https://www.freepik.com/fonts#from_element=mainmenu">Fonts</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        {/* Bottom content for dropdown menus */}
+        <div className="nav-dropdown-bottom-content">
+        
+          <a className="bottom-content-link" href="https://www.freepik.com/images#from_element=mainmenu">
+            <p>All Images</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-xl"><path d="m226.644 397-92.322 92.322c-9.763 9.763-9.763 25.592 0 35.355s25.592 9.763 35.355 0l110-110C284.559 409.797 287 403.398 287 397s-2.441-12.796-7.322-17.678l-110-110c-9.764-9.763-25.592-9.763-35.355 0s-9.763 25.592 0 35.355z"></path></svg>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+const Resources = () => {
+  return (
+    <div>
+      {/* dropdown menu content */}
+      <div className="nav-dropdown-container">
+
+
+        {/* dropdown list container */}
+        <div className="nav-dropdown-list resources-dropdown-list">
+          {/* dropdown columns */}
+          <div className="nav-dropdown-list-item">
+            {/* dropdown column header */}
+            <div className="nav-list-item-title resource-list-item">
+              <p>COMPANY</p>
+            </div>
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul>
+                {/* dropdown column list item */}
+                <li>
+                  <a href="https://www.freepik.com/company/about-us">
+                    <div className="nav-dropdown-icon">
+                      {/* Icon container */}
+                      <div className="icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-xl"><path d="M207 653c-68.38 0-132.667-26.629-181.02-74.98C-22.371 529.667-49 465.38-49 397s26.629-132.667 74.98-181.02C74.333 167.629 138.62 141 207 141s132.667 26.629 181.02 74.98C436.371 264.333 463 328.62 463 397s-26.629 132.667-74.98 181.02C339.667 626.371 275.38 653 207 653m0-462C93.411 191 1 283.411 1 397s92.411 206 206 206 206-92.411 206-206-92.411-206-206-206"></path><path d="M217 543c-13.807 0-25-11.193-25-25V391h-25c-13.807 0-25-11.193-25-25s11.193-25 25-25h50c13.807 0 25 11.193 25 25v152c0 13.807-11.193 25-25 25m-10-232c-16.542 0-30-13.458-30-30s13.458-30 30-30 30 13.458 30 30-13.458 30-30 30"></path></svg>
+                      </div> 
+                      {/* Link header and paragraph */}
+                      <div className="icon-text">
+                        <h5>About Us</h5>
+                        <p>Meet the team and 15 years of experience</p>
+                      </div> 
+                    </div>  
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.freepik.com/ai/partners">
+                    <div className="nav-dropdown-icon">
+                      {/* Icon container */}
+                      <div className="icon-container">
+                        <img src="./photos/person_shield.svg" alt="" />
+                      </div> 
+                      {/* Link header and paragraph */}
+                      <div className="icon-text">
+                        <h5>AI Partners Program</h5>
+                        <p>Top Creatives and Affiliate Programs</p>
+                      </div> 
+                    </div>  
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.freepik.com/blog/">
+                    <div className="nav-dropdown-icon">
+                      {/* Icon container */}
+                      <div className="icon-container">
+                        <img src="./photos/newsmode.svg" alt="" />
+                      </div> 
+                      {/* Link header and paragraph */}
+                      <div className="icon-text">
+                        <h5>Blog</h5>
+                        <p>Creative news and tips</p>
+                      </div> 
+                    </div>  
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.freepik.com/profile/support">
+                    <div className="nav-dropdown-icon">
+                      {/* Icon container */}
+                      <div className="icon-container">
+                        <img src="./photos/help.svg" alt="" />
+                      </div> 
+                      {/* Link header and paragraph */}
+                      <div className="icon-text">
+                        <h5>Get Help</h5>
+                        <p>Get support from our team</p>
+                      </div> 
+                    </div>  
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.freepik.com/company/about-us#contact-us">
+                    <div className="nav-dropdown-icon">
+                      {/* Icon container */}
+                      <div className="icon-container">
+                        <img src="./photos/mail.svg" alt="" />
+                      </div> 
+                      {/* Link header and paragraph */}
+                      <div className="icon-text">
+                        <h5>Contact Us</h5>
+                        <p>Meet the team and 15 years of experience</p>
+                      </div> 
+                    </div>  
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="nav-dropdown-list-item">
+            {/* dropdown column header */}
+            <div className="nav-list-item-title resource-list-item">
+              <p>MORE</p>
+            </div>
+            {/* dropdown column links */}
+            <div className="nav-list-item-links">
+              <ul>
+                <li><a href="https://www.freepik.com/enterprise">Enterprise</a></li>
+                <li><a href="https://www.freepik.com/api">API for Developers</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.freepikcompany.freepik">Android App</a></li>
+                <li><a href="https://apps.apple.com/us/app/freepik-ai-video-generator/id1664092086">IOS App</a></li>
+                <li><a href="https://www.figma.com/@freepik">Figma Plugin</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="nav-dropdown-list-item">
+            
+            {/* dropdown column links */}
+            <div className="dropdown-video-container">
+              <video className="header-video" src="./videos/video-upscale-menu-h.webm" autoPlay loop muted></video>
+              <a className="bottom-content-link" href="https://www.freepik.com/images#from_element=mainmenu">
+                <p>Events</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-xl"><path d="m226.644 397-92.322 92.322c-9.763 9.763-9.763 25.592 0 35.355s25.592 9.763 35.355 0l110-110C284.559 409.797 287 403.398 287 397s-2.441-12.796-7.322-17.678l-110-110c-9.764-9.763-25.592-9.763-35.355 0s-9.763 25.592 0 35.355z"></path></svg>
+              </a>
+              <p>Upscale Conf and US events</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  )
+}
+
+
+const SearchBar = () => {
+  return (
+    <div>
       <div className="header-form">
         <div className="header-search-bar">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" color="white" class="$w-[1em] $h-[1em] $fill-current $text-sm $text-surface-foreground-0"><path d="M448.178 602.822 316.426 471.071c26.355-33.88 42.074-76.422 42.074-122.571 0-110.28-89.72-200-200-200s-200 89.72-200 200 89.72 200 200 200c46.149 0 88.691-15.719 122.571-42.074l131.751 131.751c4.882 4.882 11.28 7.323 17.678 7.323s12.796-2.441 17.678-7.322c9.762-9.763 9.762-25.593 0-35.356M8.5 348.5c0-82.71 67.29-150 150-150s150 67.29 150 150-67.29 150-150 150-150-67.29-150-150"></path></svg>
@@ -323,9 +358,9 @@ const Header = () => {
         {/* Search Button */}
         <button className="btn-sign-in" type="submit">Sign in</button>
       </div>
+    </div>
+  )
+}
 
-    </header>
-  );
-};
 
 export default Header;
