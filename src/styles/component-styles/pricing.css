@@ -1,0 +1,124 @@
+/* Styling the button */
+
+.simple-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #272727;
+  color: white;
+  border-radius: 100px;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease-in;
+}
+
+.simple-btn:hover {
+  background-color: #424242;
+}
+
+
+/* Styling Pricing Section */
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.pricing-section > h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+/* Styles for pricing tables */
+.pricing-tables {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem ;
+}
+
+/* Styling each pricing table */
+.pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 1rem;
+}
+
+/* Styling pricing contents */
+.description > h3 {
+ font-size: 24px;
+ color: white;
+}
+
+.description > p {
+  font-size: 15px;
+}
+
+
+.price-value {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.price-value > p {
+  color: #a29c96;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.price-value > p > span {
+  font-size: 28px;
+  font-weight: 600;
+  color: #a29c96;
+}
+
+.starting-at {
+  color: white !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.pricing-features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pricing-features > h4 {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.pricing-features-item {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.pricing-features-item > svg {
+  fill: #648EEF;
+}
+
+.pricing-features-item > p {
+  font-size: 15px;
+}
+
+/* Custom styles for Teams pricing table (button and border color) */
+.teams {
+  border-color: #648EEF;
+}
+
+.teams-btn {
+  background-color: white !important;
+  color: #272727 !important;
+  transition: none;
+}

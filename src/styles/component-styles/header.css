@@ -68,7 +68,7 @@ ul {
   flex-direction: column;
   padding: 1.5rem;
   border: 1px solid hsla(0, 0%, 100%, 0.1);
-  background-color: hsla(0, 0%, 100%, 0.08);
+  background-color: hsl(0, 0%, 16%);
   border-radius: 0.5rem;
   position: absolute;  /* Change this later to absolute */
   top: 3.2rem;
