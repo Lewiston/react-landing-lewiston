@@ -16,7 +16,12 @@
 }
 
 .simple-btn:hover {
-  background-color: #424242;
+  background-color: #424242 !important;
+}
+
+.focus-btn:hover {
+  background-color: white !important;
+  color: #424242 !important;
 }
 
 
@@ -120,5 +125,5 @@
 .teams-btn {
   background-color: white !important;
   color: #272727 !important;
-  transition: none;
+
 }
