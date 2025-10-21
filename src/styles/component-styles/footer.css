@@ -1,3 +1,8 @@
+/* Footer line styling */
+.footer-line {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
 .footer {
   display: flex;
   flex-direction: column;

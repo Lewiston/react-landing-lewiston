@@ -1,0 +1,78 @@
+/* Styling stat section */
+.stat-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+/* Styling the stats 3 (containing the 3 stats) */
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Styling a single stat display */
+.single-stat {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Styles for a single stat contents */
+.stat-title {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.stat-sub-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.stat-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b0b0b0;
+}
+
+/* Styling the button */
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  color: #1a1a1a;
+  border-radius: 100px;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+}
+
+.btn > svg {
+  fill: #1a1a1a;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover > svg {
+  transform: translateX(50%)
+}
+
+
+/* Styling both heading and button */
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.call-to-action > h2 {
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+}

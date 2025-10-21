@@ -43,7 +43,7 @@ const Header = () => {
 };
 
 
-const AISuite = () => {
+export const AISuite = () => {
   return (
     <div>
       {/* dropdown menu content */}
@@ -147,7 +147,7 @@ const AISuite = () => {
 }
 
 
-const Stock = () => {
+export const Stock = () => {
   return (
     <div>
       {/* dropdown menu content */}
@@ -207,7 +207,7 @@ const Stock = () => {
 }
 
 
-const Resources = () => {
+export const Resources = () => {
   return (
     <div>
       {/* dropdown menu content */}
@@ -346,7 +346,7 @@ const Resources = () => {
 }
 
 
-const SearchBar = () => {
+export const SearchBar = () => {
   return (
     <div>
       <div className="header-form">
