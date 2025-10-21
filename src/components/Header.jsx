@@ -283,6 +283,19 @@ const Header = () => {
                       </ul>
                     </div>
                   </div>
+
+                  <div className="nav-dropdown-list-item">
+                   
+                    {/* dropdown column links */}
+                    <div className="dropdown-video-container">
+                      <video className="header-video" src="./videos/video-upscale-menu-h.webm" autoPlay loop muted></video>
+                      <a className="bottom-content-link" href="https://www.freepik.com/images#from_element=mainmenu">
+                        <p>Events</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-49 141 512 512" width="16" height="16" aria-hidden="true" class="$w-[1em] $h-[1em] $fill-current $text-xl"><path d="m226.644 397-92.322 92.322c-9.763 9.763-9.763 25.592 0 35.355s25.592 9.763 35.355 0l110-110C284.559 409.797 287 403.398 287 397s-2.441-12.796-7.322-17.678l-110-110c-9.764-9.763-25.592-9.763-35.355 0s-9.763 25.592 0 35.355z"></path></svg>
+                      </a>
+                      <p>Upscale Conf and US events</p>
+                    </div>
+                  </div>
                 </div>
 
               </div>

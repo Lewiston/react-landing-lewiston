@@ -216,6 +216,27 @@ ul {
   font-size: 14px;
 }
 
+/* Styling resource image container */
+.dropdown-video-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 240px;
+  padding: 1rem;
+  background-color: #3f3f3f;
+  border-radius: 0.5rem;
+  height: 100%;
+}
+
+.dropdown-video-container > p {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 15px;
+}
+
+.header-video {
+  border-radius: 0.25rem;
+}
+
 
 
 /* Styling of search bar (second header column) */
