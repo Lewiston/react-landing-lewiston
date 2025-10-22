@@ -1,0 +1,29 @@
+/* Styling the social proof */
+.social-proof {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem
+}
+
+.social-proof > h2 {
+  color: white;
+  font-size: 32px;
+}
+
+.social-proof > h2 > span {
+  color: #777777;
+}
+
+/* Styling the icons section */
+.client-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.client-icons > img {
+  height: 44px;
+  width: auto;
+}

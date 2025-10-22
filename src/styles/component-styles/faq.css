@@ -1,0 +1,48 @@
+/* styling the overall faq section */
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.faq-section > h2 {
+  color: white;
+  font-size: 40px;
+}
+
+/* styling the accordion */
+.single-accordion {
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+/* styling accordion buttons */
+.accordion-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.accordion-question > h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.accordion-question > h3 > span {
+  font-size: 32px;
+}
+
+/* Style for accordion answer */
+.accordion-answer > p {
+  font-size: 16px;
+  color: #BBBBBB;
+  margin-right: 4rem;
+}

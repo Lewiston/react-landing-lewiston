@@ -1,0 +1,49 @@
+/* Styling card component */
+.card-component {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  background-color: #07080d;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 1rem;
+  gap: 2rem;
+}
+
+.title-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.title-icon > h3 {
+  color: white !important;
+  font-size: 28px;
+}
+
+.title-icon > p {
+  color: #B0B0B0;
+  font-size: 15px;
+}
+
+/* Styles for  All components together (Grid)*/
+.why-choose-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+/* Styling the Why Choose Component */
+.why-choose {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.why-choose > h2 {
+  font-size: 24px;
+  color: #BBBBBB;
+}
+
+
+
+/* Animation Effect needed on hover */
