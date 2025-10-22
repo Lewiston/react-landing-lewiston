@@ -2,9 +2,9 @@ import React from 'react'
 import '../styles/component-styles/pricing.css';
 
 
-export const SimpleButton = ({label="Button Label", fill = "#272727", color = "white", autofocus = false}) => {
+export const SimpleButton = ({label="Button Label", autofocus = false}) => {
   return (
-    <button autofocus={autofocus} className={ autofocus ? "simple-btn focus-btn" : "simple-btn"} style={{backgroundColor: fill, color: color}}>
+    <button className={ autofocus ? "simple-btn focus-btn" : "simple-btn"} >
       {label} 
     </button>
   )
@@ -75,7 +75,7 @@ const Pricing = () => {
 
             <div className="price-value">
               <p><span>21 EUR</span> per user/month <br />38% off billed annually</p>
-              <SimpleButton autofocus= {true} fill="white" color="#272727" label="Get a plan" />
+              <SimpleButton autofocus= {true} label="Get a plan" />
             </div>
 
             <div className="pricing-features">

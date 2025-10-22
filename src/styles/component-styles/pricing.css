@@ -19,9 +19,11 @@
   background-color: #424242 !important;
 }
 
+.focus-btn,
 .focus-btn:hover {
   background-color: white !important;
   color: #424242 !important;
+  font-weight: 600 !important;
 }
 
 
