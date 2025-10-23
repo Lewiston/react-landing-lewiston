@@ -50,11 +50,43 @@
 }
 
 .slide-wrapper {
-  white-space: nowrap;
-  overflow: hidden;
+  /* display: inline-block; */
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  position: relative;
 }
 
+/* Giving the slide-wrapper a width was problematic
+the ai-icons display changed to in-line block from flex and
+the slide wrapper overflow hidden with no wrap implemented */
+
+/* Adding fades on the edges */
+ .slide-wrapper::before {
+  position: absolute !important;
+  content: "";
+  width: 100px;
+  height: 100px !important;
+  top: 0;
+  left: 15vw;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 100;
+}
+
+.slide-wrapper::after {
+  content: "";
+  position: absolute !important;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  right: 15vw;  
+  background: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 100;
+} 
+
+/* Issues arose from the fades because the slide-wrapper started from the edge of the screen
+whose overflow property was hidden. The vw measuring unit was used to fix this */
+
+/* Pause slide animation on hover */
 .slide-wrapper:hover .ai-icons {
   animation-play-state: paused;
 }
-

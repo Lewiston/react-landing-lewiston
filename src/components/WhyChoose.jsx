@@ -53,6 +53,7 @@ export const WhyChooseComponents = () => {
       {why_choose.map((choice) => (
         <WhyChooseCardComponent key={why_choose.id} prop={choice} />
       ))}
+
     </div>
   )
 }
