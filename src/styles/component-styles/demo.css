@@ -1,0 +1,63 @@
+/* Animation for fade */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    /* transform: scale(0.8, 0.8); */
+  }
+
+  to {
+    opacity: 1;
+    /* transform: scale(1, 1); */
+  }
+}
+
+/* styles for content section for the tabs */
+.demo-section {
+  margin-top: -4rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 1rem;
+  overflow: hidden;
+  display: none;
+}
+ /* Display content */
+.demo-content-active {
+  display: inline-block;
+  animation: 1s fade-in;
+}
+
+/* Styling the tabs section
+**************** Note that this will apply to the proceeding sections***************
+ */
+.tabs-row {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+ .tab {
+  background-color: transparent;
+  color: #B0B0B0;
+  font-size: 20px;
+  padding: 0.8rem 2rem;
+  border-radius: 100px;
+  transition: 0.2s ease-in;
+ }
+
+ .tab:hover,
+ .tab-active {
+  color: white;
+  background-color: #272727;
+ }

@@ -1,5 +1,7 @@
+import Demo from "./components/Demo";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import GenAI from "./components/GenAI";
 import Header from "./components/Header";
 import Pricing from "./components/Pricing";
 import SocialProof from "./components/SocialProof";
@@ -12,6 +14,8 @@ function App() {
     <main className="container">
       <Header />
       <SocialProof />
+      <GenAI />
+      <Demo />
       <WhyChoose />
       <Pricing />
       <FAQ />
