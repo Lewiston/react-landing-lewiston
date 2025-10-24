@@ -1,0 +1,59 @@
+/* Styling hero container */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* styling hero texts */
+.hero-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-texts > h2 {
+  font-size: 44px;
+}
+
+.hero-texts > p {
+  font-size: 18px;
+  color: #707070;
+}
+
+/* Styling the hero images */
+.hero-imagery {
+  position: relative;
+}
+
+.hero-imagery > video {
+  width: 800px;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.hero-imagery > img {
+  position: absolute;
+  border-radius: 2rem;
+  transform: scale(0.5, 0.5);
+}
+
+.img-top-left {
+  top: -30%;
+  left: -50%;
+  z-index: -1;
+}
+
+.img-bottom-left {
+  top: 30%;
+  left: -32%;
+}
+
+.img-right {
+  top: -60%;
+  right: -53%;
+}
