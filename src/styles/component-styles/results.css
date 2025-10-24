@@ -42,6 +42,8 @@
   flex-direction: row;
   gap: 2rem;
   white-space: nowrap;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 

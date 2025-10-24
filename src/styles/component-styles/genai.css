@@ -67,8 +67,8 @@ the slide wrapper overflow hidden with no wrap implemented */
   width: 100px;
   height: 100px !important;
   top: 0;
-  left: 15vw;
-  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  left: 14vw;
+  background: linear-gradient(to right, #0f0f0f, #0f0f0f00);
   z-index: 100;
 }
 
@@ -78,8 +78,8 @@ the slide wrapper overflow hidden with no wrap implemented */
   width: 100px;
   height: 100px;
   top: 0;
-  right: 15vw;  
-  background: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  right: 14vw;  
+  background: linear-gradient(to left, #0f0f0f, #0f0f0f00);
   z-index: 100;
 } 
 

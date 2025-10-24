@@ -1,4 +1,24 @@
-/* Styling the button */
+/* Styles for the creative section */
+.creative-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.creative-section > h2 {
+  font-size: 32px;
+}
+
+.creative-tabs-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+/* Styling the button in cards */
 .try-btn {
   display: flex;
   flex-direction: row;
@@ -10,6 +30,7 @@
   border-radius: 100px;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
+  display: none;
 }
 
 .try-btn > svg {
@@ -17,12 +38,43 @@
   transition: all 0.4s ease-in-out;
 }
 
-.try-btn:hover>svg {
+.try-btn:hover > svg {
   transform: translateX(50%)
 }
 
 /* Styles for the image card */
-.creative-image-card {
-  height: 320px;
-  width: 320px;
+.creative-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
+
+.creative-image-container > p {
+  font-size: 20px;
+  max-width: 450px;
+}
+
+.creative-image-container > p > span {
+  color: #707070;
+}
+
+.creative-image-card {
+  height: 350px;
+  width: 450px;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.creative-image-card:hover .try-btn {
+  display: flex;
+}
+
+
+/* Styles for card container */
+.creative-image-cards {
+  display: flex;
+  gap: 2rem;
+}
+
