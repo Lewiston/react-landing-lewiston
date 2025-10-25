@@ -1,6 +1,7 @@
 import Creative from "./components/Creative";
 import Demo from "./components/Demo";
 import FAQ from "./components/FAQ";
+import Features from "./components/Features";
 import Footer from "./components/Footer";
 import GenAI from "./components/GenAI";
 import Header from "./components/Header";
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Hero />
       <SocialProof />
+      <Features />
       <GenAI />
       <Demo />
       <Creative />
