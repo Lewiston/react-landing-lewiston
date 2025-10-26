@@ -23,7 +23,7 @@ function App() {
       <GenAI />
       <Demo />
       <Creative />
-      {/* <Results /> */}
+      <Results />
       <WhyChoose />
       <Pricing />
       <FAQ />

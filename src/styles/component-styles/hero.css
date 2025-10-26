@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   gap: 4rem;
+  margin-top: -4rem;
+  position: relative;
 }
 
 /* styling hero texts */
@@ -25,15 +27,60 @@
   color: #707070;
 }
 
+
+/* Animation for hero imagery */
+@keyframes scroll_effect {
+  from {
+    scale: 1;
+  }
+
+  to {
+    scale: 2;
+  }
+}
+
+@keyframes top_left_shift {
+  from {
+    left: -50%;
+  }
+
+  to {
+    left: -90%;
+  }
+}
+
+@keyframes bottom_left_shift {
+  from {
+    left: -32%;
+  }
+
+  to {
+    left: -72%;
+  }
+}
+
+@keyframes right_shift {
+  from {
+    right: -53%;
+  }
+
+  to {
+    right: -93%;
+  }
+}
+
 /* Styling the hero images */
 .hero-imagery {
-  position: relative;
+  position: sticky;
 }
 
 .hero-imagery > video {
   width: 800px;
   height: auto;
   border-radius: 1rem;
+  animation: scroll_effect auto linear;
+  animation-timeline: scroll();
+  animation-range: 0% 100vh;
 }
 
 .hero-imagery > img {
@@ -46,14 +93,22 @@
   top: -30%;
   left: -50%;
   z-index: -1;
+  animation: top_left_shift auto linear;
+  animation-timeline: scroll();
+  animation-range: 0% 100vh;
 }
 
 .img-bottom-left {
   top: 30%;
   left: -32%;
+  z-index: -1;
+  animation: bottom_left_shift auto linear;
+  animation-timeline: scroll();
+  animation-range: 0% 100vh;
 }
 
 .img-right {
   top: -60%;
   right: -53%;
+  z-index: -1;
 }
