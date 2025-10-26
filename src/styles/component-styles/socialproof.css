@@ -2,7 +2,8 @@
 .social-proof {
   display: flex;
   flex-direction: column;
-  gap: 4rem
+  gap: 4rem;
+  position: relative;
 }
 
 .social-proof > h2 {

@@ -7,6 +7,8 @@
   gap: 4rem;
   margin-top: -4rem;
   position: relative;
+  height: auto;
+  /* margin-bottom: 10vh; */
 }
 
 /* styling hero texts */
@@ -32,10 +34,12 @@
 @keyframes scroll_effect {
   from {
     scale: 1;
+    margin-bottom: 0px;
   }
 
   to {
     scale: 2;
+    margin-bottom: 20vh;
   }
 }
 
@@ -55,7 +59,7 @@
   }
 
   to {
-    left: -72%;
+    left: -60%;
   }
 }
 
@@ -80,7 +84,7 @@
   border-radius: 1rem;
   animation: scroll_effect auto linear;
   animation-timeline: scroll();
-  animation-range: 0% 100vh;
+  animation-range: 0% 120vh;
 }
 
 .hero-imagery > img {
